@@ -1,26 +1,34 @@
 # Submerged
 
-Submerged modpack
+A curated Minecraft modpack by [Kerberus MC](https://github.com/Kerberus-MC).
 
-[![CurseForge](https://img.shields.io/badge/CurseForge-Download-orange)](https://www.curseforge.com/minecraft/modpacks/submerged)
+## Details
 
-## Download
+| | |
+|---|---|
+| **Minecraft** | 1.20.1 |
+| **Mod Loader** | Forge 47.4 |
+| **Mods** | 298 |
 
-- **Client:** Install via [CurseForge App](https://www.curseforge.com/minecraft/modpacks/submerged) or download from [GitHub Releases](https://github.com/Kerberus-MC/Submerged/releases).
-- **Server:** Download server packs from [GitHub Releases](https://github.com/Kerberus-MC/Submerged/releases).
+## About
+
+An ocean and underwater themed modpack featuring aquatic exploration, submarine building, and deep-sea adventures.
+
+## Repository Structure
+
+This repo tracks only the pack's customization layer:
+- `config/` - Mod configuration files
+- `kubejs/` - KubeJS scripts (recipes, events, loot)
+- `datapacks/` - Custom datapacks
+- `defaultconfigs/` - Server-side default configs
+- `changelogs/` - Release changelogs
+
+Mods, saves, and runtime files are managed by CurseForge and not tracked here.
 
 ## Issues
 
 Found a bug or have a suggestion? [Open an issue](https://github.com/Kerberus-MC/Submerged/issues).
 
-## Community
+## License
 
-Join us on Discord: https://discord.gg/kfR6WyFSr7
-
-## Changelog
-
-See [CHANGELOG.md](CHANGELOG.md) and [Releases](https://github.com/Kerberus-MC/Submerged/releases) for version history.
-
----
-
-> **Note:** `manifest.json` may not always be present in the repo — it is generated at export time by CurseForge.
+All Rights Reserved. See [LICENSE](LICENSE).
